@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * swap_ints - swap tow integers in an array
  * @a: the first integer to swap
@@ -12,6 +13,7 @@ void swap_ints(int *a, int *b)
 	*a = *b;
 	*b = tmp;
 }
+
 /**
  * bubble_sort - srot an arry in ascending ordr
  * @array: an array of integers to sort
