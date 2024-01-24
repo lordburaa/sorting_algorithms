@@ -28,12 +28,10 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void selection_sort(int *array, size_t size);
 
 
-
-
-
-
-
-
+void sort_recursion(int *array, size_t size, int left, int right);
+int partition(int *array, size_t size, int left, int right);
+void swap(int *a, int *b);
+void quick_sort(int *array, size_t size);
 
 
 
