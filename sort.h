@@ -35,6 +35,10 @@ void quick_sort(int *array, size_t size);
 
 
 
+/*100*/
+void shell_sort(int *array, size_t size);
+
+
 
 
 void swap_ints(int *a, int *b);
