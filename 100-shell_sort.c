@@ -14,21 +14,21 @@ void swap_ints(int *a, int *b)
 	*b = tmp;
 }
 /**
- * shell_sort - srot an arary of integer in ascending 
+ * shell_sort - srot an arary of integer in ascending
  * @array: an array of integers
  * @size: the size ofthe array
  */
 void shell_sort(int *array, size_t size)
 {
-	size_t gap, i , j;
+	size_t gap, i, j;
 
 	if (array == NULL || size < 2)
 		return;
 
-	for (gap - 1; gap < (size / 3);)
+	for (gap = 1; gap < (size / 3);)
 		gap = gap * 3 + 1;
 
-	for (; gap >=1; gap /= 3)
+	for (; gap >= 1; gap /= 3)
 	{
 		for (i = gap; i < size; i++)
 		{
